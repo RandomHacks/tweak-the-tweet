@@ -1,0 +1,11 @@
+Notes on parse_twitter_xml.py by Lee Becker
+============================================
+ I have attached the latest version of my python code.  It has some
+ other stuff for parsing the twitter XML, but I believe Mark has a
+ better package for that.  The main piece of value is the
+ parseCrisisSyntax function, which takes a string representing the
+ tweet, and parses the tweakTweet syntax and returns a python dict
+ (hash table) of key, value pairs between hashtag and its arguments.
+
+ I may try to clean this up to better normalize some tags, but for now
+ I need to run.
